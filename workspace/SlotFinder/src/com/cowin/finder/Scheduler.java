@@ -51,7 +51,7 @@ public class Scheduler extends TimerTask {
 		System.out.println("Reading Configured Details");
 		JSONParser parser = new JSONParser();
 		try {
-			String folerPath= new File("..\\").getCanonicalPath();
+			String folerPath= new File("..\\").getCanonicalPath();   //before exporting as jar, change file location as File(".")
 			FileReader fr=new FileReader(folerPath+"\\configuration.json");    
 			int i;    
 			String confData= "";
