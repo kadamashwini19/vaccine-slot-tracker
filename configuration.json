@@ -1,7 +1,0 @@
-{
-	"email_sender" : "*****@gmail.com",
-	"email_sender_password":"******",
-	"age":30,
-	"email_recipients" : ["*****@gmail.com","****@gmail.com","******@gmail.com"],
-	"pincode":[412056, 412305]
-}
